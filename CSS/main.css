@@ -14,13 +14,82 @@ html {
     text-size-adjust: 100%;
 }
 
+*, *:after, *:before {
+    box-sizing: inherit;
+}
+
+.flex {
+    display: block;
+    width: 100%;
+}
+
+.color {
+    background-color: grey;
+}
+
+.buttonbox {
+    text-align: center;
+}
+
+button {
+    background-color: white;
+    font-size: 0.8em;
+    border: 0.5em;
+    border-color: #d0d0d0;
+}
+
+.sign {
+    text-align: center;
+    cursor: pointer;
+}
+
+.social {
+    overflow: hidden;
+    margin: 0;
+    padding: 0 5%;
+    position: static;
+}
+
+.row {
+    width;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    max-width: 62.5rem;
+}
+
+.orbit-container {
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+    background: none;
+}
+
+.orbit-container 
+.orbit-slides-container {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    -webkit-transform: translateZ(0);
+}
+    
 .header {
-    background-color: #50EBEC;
+    background-color: black;
     overflow: hidden;
 }
 
+.billboard {
+    overflow: hidden;
+    background-image: url(../images/videoroom.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+}
+
 .footer {
-    background-color: #50EBEC;
+    background-color: black;
     font-weight: 400;
 }
 
@@ -28,7 +97,7 @@ html {
 .nav a:link,
 .nav a:visited {
     display: block;
-    color: #0074D9;
+    color: #50EBEC;
     text-decoration: none;  
 }
 
@@ -38,7 +107,7 @@ html {
 .nav .navcurrent,
 .nav .nav-current:link,
 .nav .nav-current:visited {
-    background-color: #93FFE8;
+    background-color: grey;
     color: #fff;
     outline: 1px dotted #000;
 }
@@ -49,6 +118,10 @@ html {
     list-style: none;
 }
 
+.figcap {
+    text-align: center;
+}
+
 .logo {
     width: 25%;
     height: auto;
@@ -56,7 +129,37 @@ html {
     position: static;
     padding: .5rem;
 }
-    
+
+.title { 
+    color: #fff;
+}
+
+.subhead {
+    color: #fff;
+}
+
+h3 {
+    font-size: 3.8rem;
+    font-weight: 300;
+    margin-top: 50px;
+    line-height: 1.1;
+    letter-spacing: -0.5px;
+}
+
+.button {
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.33;
+    font-family: sans-serif;
+}
+
+.div {
+    display: block;
+}
+
+.icon {
+    width: 60px;
+}
 
 @media only screen and (min-width: 25em) {
     
