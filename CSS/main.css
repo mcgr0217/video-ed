@@ -31,6 +31,10 @@ html {
     text-align: center;
 }
 
+.ul {
+    margin: 0;
+}
+
 button {
     background-color: white;
     font-size: 0.8em;
@@ -101,6 +105,10 @@ button {
     text-decoration: none;  
 }
 
+.clickaway {
+    background-color: #e2e2e2;
+}
+
 .nav a:hover,
 .nav a:focus,
 .nav a:active 
@@ -120,6 +128,16 @@ button {
 
 .figcap {
     text-align: center;
+}
+
+.figure {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 0;
 }
 
 .logo {
@@ -144,6 +162,7 @@ h3 {
     margin-top: 50px;
     line-height: 1.1;
     letter-spacing: -0.5px;
+    text-align: center;
 }
 
 .button {
@@ -157,8 +176,9 @@ h3 {
     display: block;
 }
 
-.icon {
-    width: 60px;
+.icon { 
+    height:100px;
+    
 }
 
 @media only screen and (min-width: 25em) {
