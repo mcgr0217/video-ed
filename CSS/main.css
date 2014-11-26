@@ -150,6 +150,7 @@ body {
 
 .title { 
     color: #fff;
+    text-align: center;
 }
 
 .subhead {
@@ -178,7 +179,13 @@ h3 {
 
 .icon { 
     display: block;
-    width: auto;
+    width: 100%;
+}
+
+img {
+	width: 100%;
+    display: block;
+    padding: 0;
 }
 
 @media only screen and (min-width: 25em) {
@@ -201,10 +208,6 @@ h3 {
     
     nav { 
         text-align: center;
-    }
-    
-    .title {
-        text-align: left;
     }
     
     .footer {
