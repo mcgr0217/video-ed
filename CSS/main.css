@@ -38,8 +38,9 @@ html {
 button {
     background-color: white;
     font-size: 0.8em;
-    border: 0.5em;
     border-color: #d0d0d0;
+    border-bottom-style: double;
+    margin-bottom: 2rem;
 }
 
 .sign {
@@ -86,10 +87,9 @@ button {
 
 .billboard {
     overflow: hidden;
-    background-image: url(../images/videoroom.jpg);
+    background-image: url(../images/blue.jpg);
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: 100%;
 }
 
 .footer {
@@ -106,7 +106,7 @@ button {
 }
 
 .clickaway {
-    background-color: #e2e2e2;
+    background-color: black;
 }
 
 .nav a:hover,
@@ -161,9 +161,9 @@ h3 {
     font-size: 3.8rem;
     font-weight: 300;
     margin-top: 50px;
-    line-height: 1.1;
     letter-spacing: -0.5px;
     text-align: center;
+    color: #50EBEC;
 }
 
 .button {
@@ -171,6 +171,7 @@ h3 {
     font-size: 18px;
     line-height: 1.33;
     font-family: sans-serif;
+    margin-bottom: 2rem;
 }
 
 .div {
@@ -180,6 +181,7 @@ h3 {
 .icon { 
     display: block;
     width: 100%;
+    margin: 0;
 }
 
 img {
