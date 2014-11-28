@@ -32,7 +32,8 @@ html {
 }
 
 .videoed {
-    padding: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     text-align: left;
 }
 
@@ -42,23 +43,26 @@ html {
 
 .buttonbox {
     text-align: center;
+    padding-bottom: 5rem;
+    padding: 0;
 }
 
 .ul {
     margin: 0;
 }
 
+.text {
+    background-color: #4D4D4D;
+}
+
 .button {
-    background-color: #50EBEC;
-    font-size: 0.8em;
-    margin-bottom: 2rem;
-    border-radius: 4px;
-    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    background-color: white;
 }
 
 .sign {
     text-align: center;
     cursor: pointer;
+    padding: 1rem;
 }
 
 .social {
@@ -75,10 +79,9 @@ html {
 
 .billboard {
     overflow: hidden;
-    background-image: url(../images/blackandwhite.jpg);
+    background-color: darkgrey;
     background-repeat: no-repeat;
     background-position: center center;
-    margin: 
 }
 
 .footer {
@@ -109,7 +112,7 @@ p {
 .nav .navcurrent,
 .nav .nav-current:link,
 .nav .nav-current:visited {
-    background-color: grey;
+    background-color: #4D4D4D;
     color: #fff;
     outline: 1px dotted #000;
 }
@@ -145,14 +148,11 @@ body {
 .title { 
     color: #fff;
     text-align: center;
+    padding-top: 5rem;
 }
 
 .subhead {
     color: #fff;
-}
-
-h2 {
-    text-align: center;
 }
 
 h3 {
