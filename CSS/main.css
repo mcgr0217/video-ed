@@ -24,7 +24,12 @@ html {
 }
 
 .color {
-    background-color: grey;
+    background-color: #efefef;
+}
+
+.grid {
+    margin: 10rem;
+    display: inline;
 }
 
 .buttonbox {
@@ -55,31 +60,6 @@ button {
     position: static;
 }
 
-.row {
-    width;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0;
-    margin-bottom: 0;
-    max-width: 62.5rem;
-}
-
-.orbit-container {
-    overflow: hidden;
-    width: 100%;
-    position: relative;
-    background: none;
-}
-
-.orbit-container 
-.orbit-slides-container {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    position: relative;
-    -webkit-transform: translateZ(0);
-}
-    
 .header {
     background-color: black;
     overflow: hidden;
@@ -87,14 +67,24 @@ button {
 
 .billboard {
     overflow: hidden;
-    background-image: url(../images/blue.jpg);
+    background-image: url(../images/blackandwhite.jpg);
     background-repeat: no-repeat;
     background-position: center center;
+    margin: 
 }
 
 .footer {
     background-color: black;
     font-weight: 400;
+}
+
+.grid {
+    padding:inherit;
+    align-content: center;
+}
+
+p {
+    text-align: center;
 }
 
 .nav a,
@@ -103,10 +93,6 @@ button {
     display: block;
     color: #50EBEC;
     text-decoration: none;  
-}
-
-.clickaway {
-    background-color: black;
 }
 
 .nav a:hover,
@@ -160,10 +146,11 @@ body {
 h3 {
     font-size: 3.8rem;
     font-weight: 300;
-    margin-top: 50px;
     letter-spacing: -0.5px;
     text-align: center;
     color: #50EBEC;
+    margin: 0;
+    padding: 0;
 }
 
 .button {
@@ -180,8 +167,8 @@ h3 {
 
 .icon { 
     display: block;
-    width: 100%;
     margin: 0;
+    position: relative;
 }
 
 img {
@@ -198,6 +185,10 @@ img {
     
     nav { 
         text-align: center;
+    }
+    
+    .color {
+        
     }
     
 }
@@ -219,25 +210,24 @@ img {
     .copyright {
         text-align: left;
     }
-    
 }
 
 @media only screen and (min-width: 60em) {
     
-        dl {
+    dl {
         overflow: hidden;
     }
-        dt {
+    dt {
         float: left;
         clear: left;
         width: 8rem;
     }
 
-        dd {
-            float: left;
-            margin: 0;
-            padding: 0;
-        }
+    dd {
+        float: left;
+        margin: 0;
+        padding: 0;
+       }
         
 }
 
