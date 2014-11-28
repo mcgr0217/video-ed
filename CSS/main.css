@@ -28,8 +28,16 @@ html {
 }
 
 .grid {
-    margin: 10rem;
     display: inline;
+}
+
+.videoed {
+    padding: 3rem;
+    text-align: left;
+}
+
+.right {
+    text-align: right;
 }
 
 .buttonbox {
@@ -143,6 +151,10 @@ body {
     color: #fff;
 }
 
+h2 {
+    text-align: center;
+}
+
 h3 {
     font-size: 3.8rem;
     font-weight: 300;
@@ -169,6 +181,10 @@ h3 {
     display: block;
     margin: 0;
     position: relative;
+    overflow: hidden;
+    text-align: center;
+    padding-left: 5rem;
+    padding-right: 5rem;
 }
 
 img {
@@ -186,11 +202,6 @@ img {
     nav { 
         text-align: center;
     }
-    
-    .color {
-        
-    }
-    
 }
 
 @media only screen and (min-width: 38em) {
@@ -209,6 +220,11 @@ img {
         
     .copyright {
         text-align: left;
+    }
+    
+    .icon {
+        overflow: hidden;
+        text-align: center;
     }
 }
 
