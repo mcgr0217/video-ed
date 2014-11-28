@@ -48,12 +48,12 @@ html {
     margin: 0;
 }
 
-button {
-    background-color: white;
+.button {
+    background-color: #50EBEC;
     font-size: 0.8em;
-    border-color: #d0d0d0;
-    border-bottom-style: double;
     margin-bottom: 2rem;
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
 }
 
 .sign {
@@ -163,14 +163,6 @@ h3 {
     color: #50EBEC;
     margin: 0;
     padding: 0;
-}
-
-.button {
-    padding: 10px 16px;
-    font-size: 18px;
-    line-height: 1.33;
-    font-family: sans-serif;
-    margin-bottom: 2rem;
 }
 
 .div {
