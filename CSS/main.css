@@ -68,8 +68,10 @@ html {
 .social {
     overflow: hidden;
     margin: 0;
-    padding: 0 5%;
-    position: static;
+    position: relative;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    text-align: center;
 }
 
 .header {
@@ -84,13 +86,24 @@ html {
     background-position: center center;
 }
 
+h2 {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 200;
+}
+
+.size {
+    color: white;
+    font-weight: 400;  
+}
+    
+
 .footer {
     background-color: black;
     font-weight: 400;
 }
 
 .grid {
-    padding:inherit;
     align-content: center;
 }
 
