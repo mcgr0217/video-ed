@@ -23,55 +23,46 @@ html {
     width: 100%;
 }
 
+.videoed {
+    margin: 0;
+}
+
 .color {
     background-color: #efefef;
+    text-align: center;
+    color: #50EBEC; 
 }
 
 .grid {
     display: inline;
-}
-
-.videoed {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    text-align: left;
-}
-
-.right {
-    text-align: right;
+    
 }
 
 .buttonbox {
     text-align: center;
-    padding-bottom: 5rem;
-    padding: 0;
 }
 
 .ul {
     margin: 0;
 }
 
-.text {
-    background-color: #4D4D4D;
-}
-
-.button {
+button {
     background-color: white;
+    font-size: 0.8em;
+    border-color: #d0d0d0;
+    border-bottom-style: double;
+    margin-bottom: 2rem;
 }
 
 .sign {
     text-align: center;
     cursor: pointer;
-    padding: 1rem;
 }
 
 .social {
     overflow: hidden;
     margin: 0;
     position: relative;
-    padding-bottom: 2rem;
-    padding-left: 2rem;
-    text-align: center;
 }
 
 .header {
@@ -86,24 +77,13 @@ html {
     background-position: center center;
 }
 
-h2 {
-    text-align: center;
-    font-size: 3rem;
-    font-weight: 200;
-}
-
-.size {
-    color: white;
-    font-weight: 400;  
-}
-    
-
 .footer {
     background-color: black;
     font-weight: 400;
 }
 
 .grid {
+    padding:inherit;
     align-content: center;
 }
 
@@ -125,7 +105,7 @@ p {
 .nav .navcurrent,
 .nav .nav-current:link,
 .nav .nav-current:visited {
-    background-color: #4D4D4D;
+    background-color: grey;
     color: #fff;
     outline: 1px dotted #000;
 }
@@ -166,16 +146,24 @@ body {
 
 .subhead {
     color: #fff;
+    padding-top: 0;
 }
 
 h3 {
-    font-size: 3.8rem;
     font-weight: 300;
     letter-spacing: -0.5px;
     text-align: center;
     color: #50EBEC;
     margin: 0;
     padding: 0;
+}
+
+.button {
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.33;
+    font-family: sans-serif;
+    margin-bottom: 2rem;
 }
 
 .div {
@@ -188,14 +176,21 @@ h3 {
     position: relative;
     overflow: hidden;
     text-align: center;
-    padding-left: 5rem;
-    padding-right: 5rem;
 }
 
 img {
 	width: 100%;
     display: block;
     padding: 0;
+}
+
+.size { 
+    font-weight: 300;
+    text-align: center;
+}
+
+.text {
+    background-color: #DEDEDE;
 }
 
 @media only screen and (min-width: 25em) {
@@ -234,21 +229,9 @@ img {
 }
 
 @media only screen and (min-width: 60em) {
-    
-    dl {
-        overflow: hidden;
+    .footer {
+        text-align: right;
     }
-    dt {
-        float: left;
-        clear: left;
-        width: 8rem;
-    }
-
-    dd {
-        float: left;
-        margin: 0;
-        padding: 0;
-       }
         
 }
 
