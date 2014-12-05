@@ -40,20 +40,17 @@ html {
     background-color: #DEDEDE;
     background-repeat: no-repeat;
     background-position: center center;
-    padding-top: 10em;
+    padding-top: 3em;
+    padding-bottom: 3em;
     margin: 0;
 }
 
 .header{
-    text-shadow: 1px 1px #000;
-    border-bottom:3px solid #005669; 
+    text-shadow: 1px 1px #000; 
     color:#fff;
     line-height:100px;
     font-family:Montserrat;
     font-size:2em;
-    z-index:9999;
-    height:100px;
-    position:fixed;
     background-color:#019fc2;
     top:0;
     width:100%;
@@ -61,33 +58,31 @@ html {
 
 .buttonbox {
     text-align: center;
+    padding: 0;
+    margin: 0;
 }
 
 button {
-  padding:15px;
-  color:#fff;
-  background-color: #fff;
-  font-family:Montserrat;
-  font-size:13pt;
-  border: 0px solid rgba(0, 0, 0, 0);
-  border-bottom:2px solid #A8A8A8;
+    padding:15px;
+    color:#fff;
+    background-color: #fff;
+    font-size:13pt;
+    border: 0px solid rgba(0, 0, 0, 0);
+    border-bottom:2px solid #A8A8A8;
     -webkit-transition-timing-function: ease;
-  transition: width .5s, height .5s, transform .5s;
-  -moz-webkit-transform: scale(1,1);
-  transform: scale(1,1);
+    transition: width .5s, height .5s, transform .5s;
+    -moz-webkit-transform: scale(1,1);
+    transform: scale(1,1);
 }
 
 button:hover {
-    background-color: #50EBEC;
-    text-decoration-color: #fff;
-  -webkit-transition-timing-function: ease;
-  -ms-transform: scale(1.1,1.1);
-  -webkit-transform: scale(1.1,1.1);
-  -moz-webkit-transform: scale(1.1,1.1);
-  transform: scale(1.1,1.1);
-  transition: width .2s, height .2s, transform .2s;
+    -webkit-transition-timing-function: ease;
+    -ms-transform: scale(1.1,1.1);
+    -webkit-transform: scale(1.1,1.1);
+    -moz-webkit-transform: scale(1.1,1.1);
+    transform: scale(1.1,1.1);
+    transition: width .2s, height .2s, transform .2s;
 }
-
 
 a:hover,
 a:active {
@@ -98,7 +93,8 @@ a:active {
 a,
 a:link,
 a:visited {
-  color: #50EBEC;	
+    color: #50EBEC;
+    text-decoration: none;
 }
 
 a:focus {
@@ -133,14 +129,16 @@ a:focus {
 
 .copyright-footer {
 	text-align: left;
+    color: #fff;
 }
 
 .top,
 .top:link,
 .top:visited {
     text-decoration: none;
-    color: grey;
+    color: #fff;
     text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
 } 
 
 .nav {
@@ -203,13 +201,6 @@ img {
     text-align: center;
 }
 
-.smallicon {
-	width:90px; 
-	height:90px;
-	margin-left: auto;
-    margin-right: auto;	
-}
-
 .figure {
   display: block;
   width: 100%;
@@ -233,8 +224,7 @@ img {
 
 .box,
 .box:link, 
-.box:visited
-{ 
+.box:visited { 
 	font-size: 1.5em;
 	color: #fff;
 	background-color: #363636;
@@ -272,6 +262,17 @@ h2 {
 	text-align: center;
 }
 
+.gradient {
+    background: rgba(242,246,248,1);
+    background: -moz-linear-gradient(top, rgba(242,246,248,1) 0%, rgba(216,225,231,1) 50%, rgba(181,198,208,1) 51%, rgba(224,239,249,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(242,246,248,1)), color-stop(50%, rgba(216,225,231,1)), color-stop(51%, rgba(181,198,208,1)), color-stop(100%, rgba(224,239,249,1)));
+    background: -webkit-linear-gradient(top, rgba(242,246,248,1) 0%, rgba(216,225,231,1) 50%, rgba(181,198,208,1) 51%, rgba(224,239,249,1) 100%);
+    background: -o-linear-gradient(top, rgba(242,246,248,1) 0%, rgba(216,225,231,1) 50%, rgba(181,198,208,1) 51%, rgba(224,239,249,1) 100%);
+    background: -ms-linear-gradient(top, rgba(242,246,248,1) 0%, rgba(216,225,231,1) 50%, rgba(181,198,208,1) 51%, rgba(224,239,249,1) 100%);
+    background: linear-gradient(to bottom, rgba(242,246,248,1) 0%, rgba(216,225,231,1) 50%, rgba(181,198,208,1) 51%, rgba(224,239,249,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f6f8', endColorstr='#e0eff9', GradientType=0 );
+}
+
 .subhead {
     color: #fff;
     padding-top: 0;
@@ -290,7 +291,12 @@ h2 {
 }
 
 .intro {
-    background-color: #262626;
+    background-color: #F0FFFF;
+    margin: 0;
+}
+
+.awesome {
+    padding: 0;
     margin: 0;
 }
 
@@ -305,6 +311,8 @@ h2 {
 h3 { 
 	color:#00C5CD;
 	text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
 }
 
 .blue { 
@@ -324,12 +332,12 @@ h3 {
     padding-top: 2rem;
     padding-bottom: 2rem;
     text-align: center;
-    background-color: #50EBEC;
+    background-color: #262626;
     margin: 0;
 }
 
 .dark {
-    background-color: #DEDEDE;
+    background-color: #363636;
     }
 
 .table-outer {
@@ -349,12 +357,12 @@ table {
 
 th,
 td {
-  padding: 0.2rem;
+  padding: 0.5rem;
   text-align: center;
-  background-color:#E0E0E0 ;
+  background-color:#50EBEC ;
   font-size: 1em;	
-  color: #303030;	
-  border-bottom: solid 1px #A0A0A0;
+  color: ##50EBEC;	
+  border-bottom: solid 1px #fff;
 }
 
 thead th {
