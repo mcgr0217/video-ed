@@ -37,10 +37,55 @@ html {
 
 .billboard {
     overflow: hidden;
-    background-color: darkgrey;
+    background-color: #DEDEDE;
     background-repeat: no-repeat;
     background-position: center center;
-    padding-top: 2em;
+    padding-top: 10em;
+    margin: 0;
+}
+
+.header{
+    text-shadow: 1px 1px #000;
+    border-bottom:3px solid #005669; 
+    color:#fff;
+    line-height:100px;
+    font-family:Montserrat;
+    font-size:2em;
+    z-index:9999;
+    height:100px;
+    position:fixed;
+    background-color:#019fc2;
+    top:0;
+    width:100%;
+}
+
+.buttonbox {
+    text-align: center;
+}
+
+button {
+  padding:15px;
+  color:#fff;
+  background-color: #fff;
+  font-family:Montserrat;
+  font-size:13pt;
+  border: 0px solid rgba(0, 0, 0, 0);
+  border-bottom:2px solid #A8A8A8;
+    -webkit-transition-timing-function: ease;
+  transition: width .5s, height .5s, transform .5s;
+  -moz-webkit-transform: scale(1,1);
+  transform: scale(1,1);
+}
+
+button:hover {
+    background-color: #50EBEC;
+    text-decoration-color: #fff;
+  -webkit-transition-timing-function: ease;
+  -ms-transform: scale(1.1,1.1);
+  -webkit-transform: scale(1.1,1.1);
+  -moz-webkit-transform: scale(1.1,1.1);
+  transform: scale(1.1,1.1);
+  transition: width .2s, height .2s, transform .2s;
 }
 
 
@@ -110,9 +155,10 @@ a:focus {
 .nav a,
 .nav a:link,
 .nav a:visited {
-  display: block;
-  color: #fff;
-  text-decoration: none;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .nav a:hover,
@@ -151,6 +197,12 @@ img {
 	overflow: hidden;
 }
 
+.thanks {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    text-align: center;
+}
+
 .smallicon {
 	width:90px; 
 	height:90px;
@@ -162,7 +214,7 @@ img {
   display: block;
   width: 100%;
   margin: 0;
-  padding: 0em; 
+  padding: 0; 
   position: relative;
 }
 
@@ -178,7 +230,6 @@ img {
 	cursor: pointer;
 	text-align: center;
 }
-
 
 .box,
 .box:link, 
@@ -221,18 +272,6 @@ h2 {
 	text-align: center;
 }
 
-.buttonbox {
-    text-align: center;
-}
-
-.button {
-    background-color: white;
-    font-size: 0.8em;
-    border-color: #d0d0d0;
-    border-bottom-style: double;
-    margin-bottom: 2rem;
-}
-
 .subhead {
     color: #fff;
     padding-top: 0;
@@ -247,10 +286,16 @@ h2 {
  	color: #363636;
  	text-align: center;
 	float: inherit;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.intro {
+    background-color: #262626;
+    margin: 0;
 }
 
 .logo {
-    width: 25%;
+    width: 20%;
     height: auto;
     margin: .5rem auto;
     position: static;
@@ -284,8 +329,45 @@ h3 {
 }
 
 .dark {
-        background-color: #DEDEDE;
+    background-color: #DEDEDE;
     }
+
+.table-outer {
+  overflow-x: auto;
+}
+
+.table-inner {
+  margin: 0 auto;
+  max-width: 20em;
+  min-width: 10em;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 0.2rem;
+  text-align: center;
+  background-color:#E0E0E0 ;
+  font-size: 1em;	
+  color: #303030;	
+  border-bottom: solid 1px #A0A0A0;
+}
+
+thead th {
+  background-color: #303030;
+  color: #fff;	
+  font-size: 1.75em;
+  border: none;	
+}
+
+.price { 
+	font-size: 1.75em;
+	border: none;
+}
 
 @media only screen and (min-width: 30em) { 
     
