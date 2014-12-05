@@ -216,75 +216,25 @@ a.button:hover {
   
 }
 
-@media only screen and (min-width: 30em) { 
-    
-	 .nav { 
-			text-align: center;
-		 	padding: 0;
-		} 
-
-	 .nav li { 
-			display:inline-block; 
-	}
-	
-	.footer { 
-			text-align: center;
-	}
-	
+@media only screen and (min-width: 60em) {
+    html {
+		 font-size: 110%; 
+    }    
 }
-
- 
-@media only screen and (min-width: 40em) { 
-     .nav { 
-			text-align: center;
-	  		padding: 0;
-		} 
 	
-	 .nav li { 
-		text-align:center;
-	}
-	
-	.copyright { 
-		text-align: left;
-	}
-	
-	.footer { 
-		text-align: right;	
-	}
-	
-	.slogan { 
-		position: absolute; 
-		top: 100px; 
-		left: 0; 
-		width: 100%; 
-		color: #50EBEC;
-		text-align: center;
-		font-size: 1.8020rem;
-		line-height: 1.6648;
-    } 
-	
-	.about { 
-		color: #A1A1A1; 
-		margin-left: 7em;
-		margin-right: 7em;
-    }
+@media only screen and (min-width: 90em) {
+	 html {
+		 
+		 font-size: 120%;
+	 }
+    .size {
+        padding-left: 5rem;
+        padding-right: 5rem;
 }
-
- 
-@media only screen and (min-width: 60em) { 
-
 	
-	.copyright { 
-		text-align: left;
-	}
-
-	.footer { 
-		text-align: right;	
-	
-	}
-	.about { 
-		color: #A1A1A1; 
-		margin-left: 7em;
-		margin-right: 7em;
-    }
+@media only screen and (min-width: 120em) {
+	 html {
+		 
+		 font-size: 130%;
+	 }
 }
