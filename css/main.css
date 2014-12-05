@@ -38,17 +38,12 @@ html {
 .billboard {
     overflow: hidden;
     background-image: url(../images/backflip);
-    background-color: #262626
+    background-color: #262626;
     background-repeat: no-repeat;
     background-position: center center;
     padding-top: 3em;
     padding-bottom: 3em;
     margin: 0;
-}
-
-img {
-    opacity: 0.4;
-    filter: alpha(opacity=40); /* For IE8 and earlier */
 }
 
 .header{
