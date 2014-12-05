@@ -2,29 +2,27 @@
 <!-- Generator: Adobe Illustrator 18.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 612 792" enable-background="new 0 0 612 792" xml:space="preserve">
-<path fill="#FFFFFF" d="M146.3,340.7l9.9,8.4c0,0,9.5-18.3,19.1-7.6c0,0,2.8,4.8-1.6,20.3c0,0-1.2,8,5.2,14.3l12.7-6.8
-	c0,0-5.6-8.4,0-18.3c0,0,6.4-24.3-15.1-28.6C177.4,322,157.5,321.6,146.3,340.7z"/>
-<circle fill="#FFFFFF" cx="193.7" cy="387.6" r="10.7"/>
-<path fill="none" stroke="#21B8CF" stroke-width="3" stroke-miterlimit="10" d="M430.7,534H178.2c-4,0-7.2-3.2-7.2-7.2V276.3
-	c0-4,3.2-7.2,7.2-7.2h252.5c4,0,7.2,3.2,7.2,7.2v250.5C438.2,530.4,434.6,534,430.7,534z"/>
-<path fill="none" stroke="#21B8CF" stroke-miterlimit="10" d="M222.7,534h-45.3c-3.6,0-6.4-2.8-6.4-6.4V275.1c0-3.6,2.8-6.4,6.4-6.4
-	h45.3V534z"/>
-<path fill="none" stroke="#21B8CF" stroke-miterlimit="10" d="M430.3,534h-47.7V268.7h47.7c4.4,0,7.6,3.6,7.6,7.6V526
-	C438.2,530.4,434.6,534,430.3,534z"/>
-<rect x="180.1" y="278.3" fill="#21B8CF" width="34.6" height="35.8"/>
-<rect x="180.1" y="348.7" fill="#21B8CF" width="34.6" height="35.8"/>
-<rect x="180.1" y="419.1" fill="#21B8CF" width="34.6" height="35.8"/>
-<rect x="180.1" y="489.1" fill="#21B8CF" width="34.6" height="35.8"/>
-<rect x="392.9" y="278.3" fill="#21B8CF" width="34.6" height="35.8"/>
-<rect x="392.9" y="348.7" fill="#21B8CF" width="34.6" height="35.8"/>
-<rect x="392.9" y="419.1" fill="#21B8CF" width="34.6" height="35.8"/>
-<rect x="392.9" y="489.1" fill="#21B8CF" width="34.6" height="35.8"/>
-<rect x="222.7" y="419.1" fill="#21B8CF" width="159.9" height="17.9"/>
-<circle fill="none" stroke="#21B8CF" stroke-width="3" stroke-miterlimit="10" cx="302.6" cy="401.2" r="265.6"/>
-<polygon fill="#919396" stroke="#21B8CF" stroke-miterlimit="10" points="196.8,250.1 209.2,215.1 209.2,252 232.6,223.8 
-	219.9,258.4 251.7,239.7 227.9,268 264.4,261.2 232.2,279.5 268.8,285.8 232.2,292.2 264.4,310.5 227.9,303.7 251.7,332 
-	219.9,313.3 232.6,347.9 209.2,319.6 209.2,356.6 196.8,321.6 184.5,356.6 184.5,319.6 161.1,347.9 173.8,313.3 142,332 
-	165.8,303.7 129.6,310.5 161.5,292.2 125.3,285.8 161.5,279.5 129.6,261.2 165.8,268 142,239.7 173.8,258.4 161.1,223.8 184.5,252 
-	184.5,215.1 "/>
+	 viewBox="0 0 153.9 144.6" enable-background="new 0 0 153.9 144.6" xml:space="preserve">
+<path fill="#FFFFFF" d="M19.7,56.1l4.1,3.4c0,0,3.9-7.5,7.7-3.1c0,0,1.2,2-0.6,8.3c0,0-0.5,3.3,2.1,5.8l5.2-2.8c0,0-2.3-3.4-0.1-7.4
+	c0,0,2.6-9.9-6.1-11.6C32.1,48.7,24.2,48.4,19.7,56.1z"/>
+<circle fill="#FFFFFF" cx="38.8" cy="75.2" r="4.4"/>
+<path fill="none" stroke="#21B8CF" stroke-width="2" stroke-miterlimit="10" d="M135.9,134.4H31.4c-1,0-1.8-0.8-1.8-1.8V28.8
+	c0-1,0.8-1.8,1.8-1.8h104.5c1,0,1.8,0.8,1.8,1.8v103.7C137.7,133.6,136.9,134.4,135.9,134.4z"/>
+<path fill="none" stroke="#21B8CF" stroke-width="2" stroke-miterlimit="10" d="M50.6,134.4H31.2c-0.9,0-1.6-0.7-1.6-1.6V28.6
+	c0-0.9,0.7-1.6,1.6-1.6h19.4V134.4z"/>
+<path fill="none" stroke="#21B8CF" stroke-width="2" stroke-miterlimit="10" d="M135.8,134.4h-20.5V27h20.5c1.1,0,1.9,0.9,1.9,1.9
+	v103.5C137.7,133.5,136.9,134.4,135.8,134.4z"/>
+<rect x="33.4" y="30.8" fill="#21B8CF" width="14.1" height="14.5"/>
+<rect x="33.4" y="59.4" fill="#21B8CF" width="14.1" height="14.5"/>
+<rect x="33.4" y="88" fill="#21B8CF" width="14.1" height="14.5"/>
+<rect x="33.4" y="116.2" fill="#21B8CF" width="14.1" height="14.5"/>
+<rect x="119.5" y="30.8" fill="#21B8CF" width="14.1" height="14.5"/>
+<rect x="119.5" y="59.4" fill="#21B8CF" width="14.1" height="14.5"/>
+<rect x="119.5" y="88" fill="#21B8CF" width="14.1" height="14.5"/>
+<rect x="119.5" y="116.2" fill="#21B8CF" width="14.1" height="14.5"/>
+<rect x="50.6" y="88" fill="#21B8CF" width="64.7" height="7.2"/>
+<polygon fill="#919396" stroke="#21B8CF" stroke-miterlimit="10" points="40.1,19.4 45.1,5.3 45.1,20.3 54.6,8.8 49.4,22.8 
+	62.4,15.3 52.7,26.7 67.4,24 54.4,31.5 69.2,34 54.4,36.5 67.4,43.9 52.7,41.2 62.4,52.7 49.4,45.1 54.6,59.2 45.1,47.6 45.1,62.6 
+	40.1,48.5 35,62.6 35.1,47.6 25.6,59.2 30.7,45.1 17.8,52.7 27.5,41.2 12.8,43.9 25.8,36.5 11,34 25.8,31.5 12.8,24 27.5,26.7 
+	17.8,15.3 30.7,22.8 25.6,8.8 35.1,20.3 35,5.3 "/>
 </svg>

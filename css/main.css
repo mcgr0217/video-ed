@@ -151,10 +151,6 @@ img {
 	overflow: hidden;
 }
 
-.grey { 
- 	background-color: #D8D8D8;
-}
-
 .smallicon {
 	width:90px; 
 	height:90px;
@@ -243,12 +239,12 @@ h2 {
 }
 
 .figcap { 
- 	color: #A8A8A8 ;
+ 	color: #A8A8A8;
  	text-align: center;
 }
 
 .figcaps { 
- 	color: #A8A8A8;
+ 	color: #363636;
  	text-align: center;
 	float: inherit;
 }
@@ -262,15 +258,14 @@ h2 {
 }
 
 h3 { 
-	color:#A8A8A8;
+	color:#00C5CD;
 	text-align: center;
 }
 
 .blue { 
 	background-color: #50EBEC;
 	color: #fff;
-    margin: o;
-    padding: 0;
+    text-align: center;
 }
 
 .icon { 
@@ -279,6 +274,18 @@ h3 {
 	margin-left: auto;
     margin-right: auto;
 }
+
+.started {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+    background-color: #50EBEC;
+    margin: 0;
+}
+
+.dark {
+        background-color: #DEDEDE;
+    }
 
 @media only screen and (min-width: 30em) { 
     
