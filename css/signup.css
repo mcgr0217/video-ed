@@ -230,6 +230,7 @@ a.button:hover {
     .size {
         padding-left: 20rem;
         padding-right: 20rem;
+    }
 }
 	
 @media only screen and (min-width: 120em) {
@@ -237,4 +238,9 @@ a.button:hover {
 		 
 		 font-size: 130%;
 	 }
+    
+    .size {
+        padding-left: 20rem;
+        padding-right: 20rem;
+    }
 }
