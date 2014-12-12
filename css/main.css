@@ -37,10 +37,7 @@ html {
     background-repeat: no-repeat;
     background-position: center center;
     background-image: url(../images/cameralens.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
     background-size: 100%;
-    overflow: hidden;
 }
 
 .header{
