@@ -34,8 +34,7 @@ html {
 
 .billboard {
     overflow: hidden;
-    background-image: linear-gradient(3, 10, 4, 0)
-    background-color: #262626;
+    background-color: #A8A8A8;
     background-repeat: no-repeat;
     background-position: center center;
     padding-top: 5em;
@@ -230,7 +229,7 @@ body {
 
 h2 { 
 	text-align: center;
-	color: #363636; 
+	color: #00C5CD; 
 }
 
 .info { 
