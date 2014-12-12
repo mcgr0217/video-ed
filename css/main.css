@@ -16,21 +16,18 @@ html {
 
 @media only screen and (min-width: 60em) {
 	 html {
-		 
-		 font-size: 110%;
+		  font-size: 110%;
 	 }
 }
 	
 @media only screen and (min-width: 90em) {
 	 html {
-		 
 		 font-size: 120%;
 	 }
 }
 	
 @media only screen and (min-width: 120em) {
-	 html {
-		 
+	 html { 
 		 font-size: 130%;
 	 }
 }
@@ -38,12 +35,12 @@ html {
 .billboard {
     overflow: hidden;
     background-image: url(../images/camera);
-    background-image: linear-gradient(3, 1, 4, 0)
+    background-image: linear-gradient(3, 10, 4, 0)
     background-color: #262626;
     background-repeat: no-repeat;
     background-position: center center;
-    padding-top: 3em;
-    padding-bottom: 3em;
+    padding-top: 5em;
+    padding-bottom: 5em;
     margin: 0;
 }
 
@@ -167,9 +164,7 @@ a:focus {
 .nav .nav-current,
 .nav .nav-current:link,
 .nav .nav-current:visited {
-    background-color: #50EBEC;
     color:#fff;
-    padding-left: 0;
     margin: 0;
 }
 
@@ -249,16 +244,6 @@ h2 {
 	text-align: center;
 }
 
-.gradient {
-    background: rgba(254,254,254,1);
-background: -moz-linear-gradient(top, rgba(254,254,254,1) 0%, rgba(209,209,209,1) 49%, rgba(219,219,219,1) 50%, rgba(226,226,226,1) 100%);
-background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(254,254,254,1)), color-stop(49%, rgba(209,209,209,1)), color-stop(50%, rgba(219,219,219,1)), color-stop(100%, rgba(226,226,226,1)));
-background: -webkit-linear-gradient(top, rgba(254,254,254,1) 0%, rgba(209,209,209,1) 49%, rgba(219,219,219,1) 50%, rgba(226,226,226,1) 100%);
-background: -o-linear-gradient(top, rgba(254,254,254,1) 0%, rgba(209,209,209,1) 49%, rgba(219,219,219,1) 50%, rgba(226,226,226,1) 100%);
-background: -ms-linear-gradient(top, rgba(254,254,254,1) 0%, rgba(209,209,209,1) 49%, rgba(219,219,219,1) 50%, rgba(226,226,226,1) 100%);
-background: linear-gradient(to bottom, rgba(254,254,254,1) 0%, rgba(209,209,209,1) 49%, rgba(219,219,219,1) 50%, rgba(226,226,226,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefe', endColorstr='#e2e2e2', GradientType=0 );
-}
 .subhead {
     color: #fff;
     padding-top: 0;
@@ -347,7 +332,6 @@ td {
   text-align: center;
   background-color:#50EBEC ;
   font-size: 1em;	
-  color: #50EBEC;	
   border-bottom: solid 1px #fff;
 }
 
@@ -359,7 +343,7 @@ thead th {
 }
 
 .price { 
-	font-size: 1.75em;
+	font-size: 2em;
 	border: none;
 }
 
@@ -377,11 +361,6 @@ thead th {
 	.footer { 
 			text-align: center;
 	}
-    
-    .icon {
-        width: 100px;
-    }
-	
 }
 
  
@@ -423,6 +402,7 @@ thead th {
     .logo {
         width: 15%;
     }
+    
 }
 
  
