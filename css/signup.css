@@ -109,8 +109,7 @@ label.radio:after {
 	border: 3px solid #ffffff;
 	border-top: none;
 	border-right: none;
-
-	-webkit-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
 	-moz-transform: rotate(-45deg);
 	-o-transform: rotate(-45deg);
 	-ms-transform: rotate(-45deg);
