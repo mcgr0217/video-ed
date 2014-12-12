@@ -34,7 +34,6 @@ html {
 
 .billboard {
     overflow: hidden;
-    background-image: url(../images/camera.jpg)
     background-image: linear-gradient(3, 10, 4, 0)
     background-color: #262626;
     background-repeat: no-repeat;
@@ -137,7 +136,7 @@ a:focus {
     text-decoration: none;
     color: #fff;
     text-align: right;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans', sans-serif;
 } 
 
 .nav {
@@ -259,7 +258,7 @@ h2 {
  	color: #363636;
  	text-align: center;
 	float: inherit;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .intro {
@@ -283,7 +282,7 @@ h2 {
 h3 { 
 	color:#00C5CD;
 	text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 300;
 }
 
@@ -310,7 +309,7 @@ h3 {
 
 .dark {
     background-color: #363636;
-    }
+}
 
 .table-outer {
     overflow-x: auto;
@@ -348,44 +347,8 @@ thead th {
 	border: none;
 }
 
-.social-slide {
-	background-image: url('path/to/image.png');
-	height: 48px;
-	width: 48px;
-	margin: 10px;
-	float: left;
-	-webkit-transition: all ease 0.3s;
-	-moz-transition: all ease 0.3s;
-	-o-transition: all ease 0.3s;
-	-ms-transition: all ease 0.3s;
-	transition: all ease 0.3s;
-}
-
-.social-slide:hover {
-	background-position: 0px -48px;
-	box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.8);
-}
-
 .spacing {
     padding: 2rem;
-}
-
-.social {
-    overflow: hidden;
-    margin: 0;
-    padding: 0;
-    position: static;
-}
-
-.social li {
-    width: 22%;
-    list-style-type: none;
-    margin: 3rem 15% 1rem 0;
-    padding: 0;
-}
-
-.social li:last-child {
-    margin-right: 0;
 }
 
 @media only screen and (min-width: 30em) { 
@@ -413,7 +376,6 @@ thead th {
     }
 }
 
- 
 @media only screen and (min-width: 40em) { 
      .nav { 
 			text-align: center;
