@@ -80,7 +80,7 @@ form{
 
 label.radio {
 	cursor: pointer;
-    text-indent: 35px;
+    text-indent: 30px;
     overflow: visible;
     display: inline-block;
     position: relative;
@@ -88,13 +88,13 @@ label.radio {
 }
 
 label.radio:before {
-    background: #50EBEC;
     position: absolute;
     top:2px;
     left: 0;
     width: 20px;
     height: 20px;
     border-radius: 100%;
+    background-color: black;
 }
 
 label.radio:after {
@@ -145,22 +145,6 @@ input[type=password]{
     margin-bottom: 25px;
 }
 
-icon {
-    display: inline-block;
-    width: 30px;
-    background-color: #50EBEC;
-    padding: 8px 0px 8px 15px;
-    margin-left: 15px;
-    -webkit-border-radius: 4px 0px 0px 4px; 
-    -moz-border-radius: 4px 0px 0px 4px; 
-    border-radius: 4px 0px 0px 4px;
-    color: white;
-    -webkit-box-shadow: 1px 2px 5px rgba(0,0,0,.09);
-    -moz-box-shadow: 1px 2px 5px rgba(0,0,0,.09); 
-    box-shadow: 1px 2px 5px rgba(0,0,0,.09); 
-    border: solid 0px #cbc9c9;
-}
-
 .gender {
     margin-left: 30px;
     margin-bottom: 30px;
@@ -205,7 +189,6 @@ a.button:hover {
 .box {
     padding: 0.5rem;
     text-align: center;
-    background-color: #50EBEC;
     font-size: 1em;	
     border-bottom: solid 1px #fff;
 }
