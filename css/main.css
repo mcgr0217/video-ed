@@ -34,7 +34,7 @@ html {
 
 .billboard {
     overflow: hidden;
-    background-image: url(../images/camera);
+    background-image: url(../images/camera.jpg)
     background-image: linear-gradient(3, 10, 4, 0)
     background-color: #262626;
     background-repeat: no-repeat;
@@ -155,7 +155,7 @@ a:focus {
     display: block;
     color: #fff;
     text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Opensans', Helvetica, sans-serif;
 }
 
 .nav a:hover,
@@ -235,8 +235,9 @@ h2 {
 }
 
 .info { 
-	color: #A1A1A1; 
+	color: #363636; 
 	text-align: center;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .about { 
@@ -303,7 +304,7 @@ h3 {
     padding-top: 2rem;
     padding-bottom: 2rem;
     text-align: center;
-    background-color: #262626;
+    background-color: #50EBEC;
     margin: 0;
 }
 
@@ -312,34 +313,34 @@ h3 {
     }
 
 .table-outer {
-  overflow-x: auto;
+    overflow-x: auto;
 }
 
 .table-inner {
-  margin: 0 auto;
-  max-width: 20em;
-  min-width: 10em;
+    margin: 0 auto;
+    max-width: 20em;
+    min-width: 10em;
 }
 
 table {
-  width: 100%;
-  border-collapse: collapse;
+    width: 100%;
+    border-collapse: collapse;
 }
 
 th,
 td {
-  padding: 0.5rem;
-  text-align: center;
-  background-color:#50EBEC ;
-  font-size: 1em;	
-  border-bottom: solid 1px #fff;
+    padding: 0.5rem;
+    text-align: center;
+    background-color:#50EBEC ;
+    font-size: 1em;	
+    border-bottom: solid 1px #fff;
 }
 
 thead th {
-  background-color: #303030;
-  color: #fff;	
-  font-size: 1.75em;
-  border: none;	
+    background-color: #303030;
+    color: #fff;	
+    font-size: 1.75em;
+    border: none;	
 }
 
 .price { 
