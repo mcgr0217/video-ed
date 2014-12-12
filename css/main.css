@@ -37,7 +37,8 @@ html {
 
 .billboard {
     overflow: hidden;
-    background-image: url(../images/backflip);
+    background-image: url(../images/camera);
+    background-image: linear-gradient(3, 1, 4, 0)
     background-color: #262626;
     background-repeat: no-repeat;
     background-position: center center;
@@ -53,8 +54,8 @@ html {
     font-family:Montserrat;
     font-size:2em;
     background-color:#019fc2;
-    top:0;
     width:100%;
+    padding: 2rem;
 }
 
 .buttonbox {
@@ -143,7 +144,7 @@ a:focus {
 } 
 
 .nav {
-  padding: 0;
+    padding: 0;
 }
 
 .nav li {
@@ -166,8 +167,10 @@ a:focus {
 .nav .nav-current,
 .nav .nav-current:link,
 .nav .nav-current:visited {
-  background-color: #50EBEC;
-  color:#262626;
+    background-color: #50EBEC;
+    color:#fff;
+    padding-left: 0;
+    margin: 0;
 }
 
 img {
@@ -221,23 +224,6 @@ img {
 .signup {  
 	cursor: pointer;
 	text-align: center;
-}
-
-.box,
-.box:link, 
-.box:visited { 
-	font-size: 1.5em;
-	color: #fff;
-	background-color: #363636;
-	border-radius: 5px; 
-	-moz-border-radius: 5px; 
-	-webkit-border-radius: 5px;
-	text-align: center;
-	position: absolute; 
-    top: 170px; 	
-	left: 50%;
-	transform: translateX(-50%);
-	text-decoration: none;
 }
 
 .caps {
@@ -361,7 +347,7 @@ td {
   text-align: center;
   background-color:#50EBEC ;
   font-size: 1em;	
-  color: ##50EBEC;	
+  color: #50EBEC;	
   border-bottom: solid 1px #fff;
 }
 
@@ -391,6 +377,10 @@ thead th {
 	.footer { 
 			text-align: center;
 	}
+    
+    .icon {
+        width: 100px;
+    }
 	
 }
 
@@ -429,6 +419,10 @@ thead th {
 		margin-left: 7em;
 		margin-right: 7em;
     }
+    
+    .logo {
+        width: 15%;
+    }
 }
 
  
@@ -447,5 +441,9 @@ thead th {
 		color: #A1A1A1; 
 		margin-left: 7em;
 		margin-right: 7em;
+    }
+    
+    .logo {
+        width: 10%;
     }
 }
