@@ -34,12 +34,13 @@ html {
 
 .billboard {
     overflow: hidden;
-    background-color: #A8A8A8;
     background-repeat: no-repeat;
     background-position: center center;
-    padding-top: 5em;
-    padding-bottom: 5em;
-    margin: 0;
+    background-image: url(../images/cameralens.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+    overflow: hidden;
 }
 
 .header{
@@ -245,7 +246,7 @@ h2 {
 
 .subhead {
     color: #fff;
-    padding-top: 0;
+    text-align: center;
 }
 
 .figcap { 
