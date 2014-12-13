@@ -70,6 +70,10 @@ input[type=radio] {
     visibility: hidden;
 }
 
+.dark {
+    background-color: #363636;
+}
+
 form{
     margin: 0 90px;
 }
@@ -202,6 +206,7 @@ a.button:hover {
     background-color: #fff;
     font-size: 1em;	
     border-bottom: solid 1px #fff;
+    padding-bottom: 5rem;
 }
 
 @media only screen and (min-width: 40em) { 
@@ -222,6 +227,7 @@ a.button:hover {
 	.space {
         padding-left: 5rem;
         padding-right: 5rem;
+        padding-bottom: 5rem;
     }
 }
 
