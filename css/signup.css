@@ -52,7 +52,7 @@ select {
 
 p {
     font-size: 12px;
-    width: 150px;
+    width: 200px;
     display: inline-block;
     margin-left: 18px;
 }
@@ -231,9 +231,8 @@ a.button:hover {
 	}
     
 	.space {
-        padding-left: 5rem;
-        padding-right: 5rem;
-        padding-bottom: 5rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
     }
 }
 
