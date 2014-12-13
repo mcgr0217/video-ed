@@ -34,9 +34,9 @@ html {
 
 .billboard {
     overflow: hidden;
+    background-image: url(../images/cameralens.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url(../images/cameralens.jpg)
     background-size: cover;
     margin-bottom: 0;
     padding-top: 7rem;
