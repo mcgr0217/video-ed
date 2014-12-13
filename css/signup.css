@@ -124,6 +124,11 @@ hr{
     opacity: 0.2;
 }
 
+.copyright-footer {
+	text-align: left;
+    color: #fff;
+}
+
 input[type=text],input[type=password]{
     width: 200px; 
     height: 39px; 
