@@ -43,6 +43,39 @@ select {
     color: #4c4c4c;
 }
 
+.button {
+   border-top: 1px solid #96d1f8;
+   background: #65a9d7;
+   background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#65a9d7));
+   background: -webkit-linear-gradient(top, #3e779d, #65a9d7);
+   background: -moz-linear-gradient(top, #3e779d, #65a9d7);
+   background: -ms-linear-gradient(top, #3e779d, #65a9d7);
+   background: -o-linear-gradient(top, #3e779d, #65a9d7);
+   padding: 5px 10px;
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 14px;
+   text-decoration: none;
+   vertical-align: middle;
+}
+
+.button:hover {
+   border-top-color: #28597a;
+   background: #28597a;
+   color: #fff;
+}
+
+.button:active {
+   border-top-color: #1b435e;
+   background: #1b435e;
+}
+
 .footer{ 
 	overflow: hidden;
 	margin: 0; 
@@ -173,38 +206,6 @@ icon {
 .accounttype{
     margin-left: 8px;
     margin-top: 20px;
-}
-
-a.button {
-    font-size: 14px;
-    font-weight: 600;
-    color: white;
-    padding: 6px 25px 0px 20px;
-    margin-bottom: 4rem;
-    display: inline-block;
-    float: right;
-    text-decoration: none;
-    width: 50px; height: 27px; 
-    -webkit-border-radius: 5px; 
-    -moz-border-radius: 5px; 
-    border-radius: 5px; 
-    background-color: #A8A8A8; 
-    -webkit-box-shadow: 0 3px rgba(58,87,175,.75); 
-    -moz-box-shadow: 0 3px rgba(58,87,175,.75); 
-    box-shadow: 0 3px rgba( 0,12,20,.75);
-    transition: all 0.1s linear 0s; 
-    top: 0px;
-    position: relative;
-    text-align: center;
-}
-
-a.button:hover {
-    top: 3px;
-    background-color: #50EBEC;
-    -webkit-box-shadow: none; 
-    -moz-box-shadow: none; 
-    box-shadow: none;
-    color: #4c4c4c;
 }
 
 .box {

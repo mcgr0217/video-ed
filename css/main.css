@@ -55,33 +55,6 @@ html {
     padding: 2rem;
 }
 
-.buttonbox {
-    text-align: center;
-    padding: 0;
-    margin: 0;
-}
-
-.button {
-    padding:15px;
-    background-color: #A8A8A8;
-    font-size:  13pt;
-    border: 0px solid rgba(0, 0, 0, 0);
-    border-bottom: 2px solid #A8A8A8;
-    -webkit-transition-timing-function: ease;
-    transition: width .5s, height .5s, transform .5s;
-    -moz-webkit-transform: scale(1,1);
-    transform: scale(1,1);
-}
-
-button:hover {
-    -webkit-transition-timing-function: ease;
-    -ms-transform: scale(1.1,1.1);
-    -webkit-transform: scale(1.1,1.1);
-    -moz-webkit-transform: scale(1.1,1.1);
-    transform: scale(1.1,1.1);
-    transition: width .2s, height .2s, transform .2s;
-}
-
 a:hover,
 a:active {
   outline: none;
@@ -220,17 +193,12 @@ img {
 	text-align: center;
 }
 
-.caps {
-    text-transform:capitalize;
-}
-
 body {
     margin: 0;
 }
 
 h2 { 
-	text-align: center;
-	color: #00C5CD; 
+	text-align: center; 
 }
 
 .info { 
@@ -245,8 +213,8 @@ h2 {
 }
 
 .subhead {
-    color: #fff;
-    text-align: center;
+    color: #363636;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .figcap { 
@@ -271,6 +239,38 @@ h2 {
     padding-bottom: 1rem;
     margin: 0;
 }
+
+.button {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.btn {
+  position: relative;
+  display: block;
+  width: 150px;
+  margin: 10px auto;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  color: #F0FFFF;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  transform-style: flat;
+  transition: all 250ms ease-out;
+  }
+}
+
+
+
+
+
+
+
+
+
 
 .logo {
     width: 20%;
@@ -301,8 +301,8 @@ h3 {
 }
 
 .started {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     text-align: center;
     background-color: #50EBEC;
     margin: 0;
@@ -440,8 +440,8 @@ thead th {
     }
     
     .thanks {
-    padding-top: 8rem;
-    padding-bottom: 5rem;
-    text-align: center;
+        padding-top: 8rem;
+        padding-bottom: 5rem;
+        text-align: center;
     }
 }
