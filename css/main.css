@@ -135,7 +135,7 @@ a:focus {
 .nav .nav-current,
 .nav .nav-current:link,
 .nav .nav-current:visited {
-    color:#262626;
+    color: #F0FFFF;
     margin: 0
 }
 
