@@ -127,7 +127,6 @@ a:focus {
     display: block;
     color: #fff;
     text-decoration: none;
-    font-family: 'Opensans', Helvetica, sans-serif;
 }
 
 .nav a:hover,
@@ -136,8 +135,8 @@ a:focus {
 .nav .nav-current,
 .nav .nav-current:link,
 .nav .nav-current:visited {
-    color:#fff;
-    margin: 0;
+    color:#262626;
+    margin: 0
 }
 
 img {
@@ -238,13 +237,6 @@ h2 {
     padding-top: 2rem;
     padding-bottom: 1rem;
     margin: 0;
-}
-
-.button {
-    text-align: center;
-    padding: 0;
-    margin: 0;
-    overflow: hidden;
 }
 
 .btn {
