@@ -44,36 +44,24 @@ select {
 }
 
 .button {
-   border-top: 1px solid #96d1f8;
-   background: #65a9d7;
-   background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#65a9d7));
-   background: -webkit-linear-gradient(top, #3e779d, #65a9d7);
-   background: -moz-linear-gradient(top, #3e779d, #65a9d7);
-   background: -ms-linear-gradient(top, #3e779d, #65a9d7);
-   background: -o-linear-gradient(top, #3e779d, #65a9d7);
-   padding: 5px 10px;
-   -webkit-border-radius: 8px;
-   -moz-border-radius: 8px;
-   border-radius: 8px;
-   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
-   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
-   box-shadow: rgba(0,0,0,1) 0 1px 0;
-   text-shadow: rgba(0,0,0,.4) 0 1px 0;
-   color: white;
-   font-size: 14px;
-   text-decoration: none;
-   vertical-align: middle;
+    border-top: 1px solid #A8A8A8;
+    background: #4C4C4C;
+    padding: 5px 10px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    box-shadow: rgba(0,0,0,1) 0 1px 0;
+    text-shadow: rgba(0,0,0,.4) 0 1px 0;
+    text-decoration: none;
+    text-align: center;
 }
 
 .button:hover {
-   border-top-color: #28597a;
-   background: #28597a;
-   color: #fff;
-}
-
-.button:active {
-   border-top-color: #1b435e;
-   background: #1b435e;
+    border-top-color: #CBC9CC;
+    background: #A8A8A8;
+    color: #fff;
 }
 
 .footer{ 
@@ -108,7 +96,7 @@ input[type=radio] {
 }
 
 form{
-    margin: 0 90px;
+    margin: 0 50px;
 }
 
 label.radio {
@@ -121,7 +109,6 @@ label.radio {
 }
 
 label.radio:before {
-    background: #50EBEC;
     position: absolute;
     top:2px;
     left: 0;
@@ -149,7 +136,7 @@ label.radio:after {
 }
 
 input[type=radio]:checked + label:after {
-	opacity: 8;
+	opacity: 10;
 }
 
 hr{
@@ -182,30 +169,19 @@ input[type=password]{
     margin-bottom: 25px;
 }
 
-icon {
-    display: inline-block;
-    width: 30px;
-    background-color: #50EBEC;
-    padding: 8px 0px 8px 15px;
-    margin-left: 15px;
-    -webkit-border-radius: 4px 0px 0px 4px; 
-    -moz-border-radius: 4px 0px 0px 4px; 
-    border-radius: 4px 0px 0px 4px;
-    color: white;
-    -webkit-box-shadow: 1px 2px 5px rgba(0,0,0,.09);
-    -moz-box-shadow: 1px 2px 5px rgba(0,0,0,.09); 
-    box-shadow: 1px 2px 5px rgba(0,0,0,.09); 
-    border: solid 0px #cbc9c9;
-}
-
 .gender {
     margin-left: 30px;
     margin-bottom: 10px;
 }
 
-.accounttype{
+.accounttype {
     margin-left: 8px;
     margin-top: 20px;
+}
+
+.nav-current {
+    background-color: #50EBEC;
+    padding: .5rem;
 }
 
 .box {

@@ -135,8 +135,8 @@ a:focus {
 .nav .nav-current,
 .nav .nav-current:link,
 .nav .nav-current:visited {
-    color: #F0FFFF;
-    margin: 0
+    background-color: #50EBEC;
+    padding: .5rem;
 }
 
 img {
