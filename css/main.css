@@ -35,6 +35,7 @@ html {
 .billboard {
     overflow: hidden;
     background-image: url(../images/cameralens.jpg);
+    text-shadow: rgba(0,0,0,.4) 0 1px 0;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -198,6 +199,7 @@ body {
 
 h2 { 
 	text-align: center; 
+    font-family: 'Open Sans', sans-serif;
 }
 
 .info { 
@@ -240,19 +242,20 @@ h2 {
 }
 
 .btn {
-  position: relative;
-  display: block;
-  width: 150px;
-  margin: 10px auto;
-  padding: 10px;
-  background-color: #fff;
-  border: 1px solid #ccc;
-  color: #F0FFFF;
-  text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
-  transform-style: flat;
-  transition: all 250ms ease-out;
+    position: relative;
+    display: block;
+    width: 150px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    color: #F0FFFF;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    transform-style: flat;
+    transition: all 250ms ease-out;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .logo {
@@ -402,7 +405,6 @@ thead th {
 
  
 @media only screen and (min-width: 60em) { 
-
 	
 	.copyright { 
 		text-align: left;
